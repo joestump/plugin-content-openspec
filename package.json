@@ -17,9 +17,9 @@
     "@docusaurus/types": "^3.0.0"
   },
   "dependencies": {
-    "lib-artifact-transforms": "^0.1.0",
+    "lib-artifact-transforms": "file:../lib-artifact-transforms",
     "gray-matter": "^4.0.3",
-    "globby": "^13.0.0"
+    "fast-glob": "^3.3.0"
   },
   "devDependencies": {
     "@docusaurus/types": "^3.0.0",
