@@ -1,0 +1,29 @@
+{
+  "name": "plugin-content-openspec",
+  "version": "0.1.0",
+  "description": "Docusaurus plugin for transforming OpenSpec paired documents into MDX pages",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib"],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": ["docusaurus", "plugin", "openspec", "spec", "specification"],
+  "peerDependencies": {
+    "@docusaurus/types": "^3.0.0"
+  },
+  "dependencies": {
+    "lib-artifact-transforms": "^0.1.0",
+    "gray-matter": "^4.0.3",
+    "globby": "^13.0.0"
+  },
+  "devDependencies": {
+    "@docusaurus/types": "^3.0.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
