@@ -17,6 +17,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Checkout lib-artifact-transforms
+        uses: actions/checkout@v4
+        with:
+          repository: joestump/lib-artifact-transforms
+          path: ../lib-artifact-transforms
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
